@@ -1,0 +1,39 @@
+<configuration plugin="poweradmin">
+	<settings name="commands">
+<!--  
+		The first group of commands work with our serverside mod, or with bullet-worm's powerservermod. Or, in fact,
+		with any server that has ravirs original admintools included.
+    Whenever the coder modified the tools however, they might not work with b3.
+-->
+		<set name="paswitch-switch">40</set>
+		<set name="paswitchall-switchall">80</set>
+		<set name="paforcespec-forcespec">40</set>
+		<set name="pakillplayer-killplayer">80</set>
+<!--  
+		The next commands only apply when you have installed the _b3_poweradmin.gsc as an extra serverside mod
+		You have to know basic CoD scripting to add it to your gametype scripts! If you don't, leave it alone for now!
+-->
+		<set name="paforce-force">80</set>
+		<set name="pascore-score">80</set>
+		<set name="padeath-death">80</set>
+		<set name="palosepoint-losepoint">80</set>
+		<set name="pacompensate-compensate">80</set>
+		<set name="paendmap-endmap">80</set>
+		<set name="pasaybold-saybold">40</set>
+		<set name="parename-rename">40</set>
+		<set name="paforceallspec-forceallspec">80</set>
+		<set name="pashock-shock">40</set>
+		<set name="paburn-burn">40</set>
+		<set name="paexplode-explode">40</set>
+		<!-- Next two commands are disabled by default -->
+    <set name="paenforce-enforce">1000</set>
+		<set name="paretaliate-retaliate">1000</set>
+<!--  
+		The next commands do not need any serverside mods. Carefull, these control the core of your server
+-->
+		<set name="pamaprestart-maprestart">40</set>
+		<set name="paset">100</set>
+		<set name="paget">100</set>
+		<set name="paexec">100</set>
+	</settings>
+</configuration>
